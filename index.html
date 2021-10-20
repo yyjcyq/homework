@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #eee;
+        }
+        
+        .info {
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+        
+        .main {
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+            background-color: #ffffff;
+            min-width: 1000px;
+            margin: 130px 260px;
+            box-shadow: 10px 15px 10px rgb(199, 197, 197);
+        }
+        
+        .left {
+            margin: 24px;
+            min-width: 350px;
+            border-right: 4px solid red;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .right {
+            width: 615px;
+            margin-top: 45px;
+        }
+        
+        .personInfo>div {
+            line-height: 40px;
+            margin-left: 60px;
+            box-sizing: border-box;
+        }
+        
+        .list {
+            display: flex;
+        }
+        
+        .list div:first-child {
+            letter-spacing: 15px;
+        }
+        
+        .title {
+            margin: 28px;
+        }
+        
+        .change div {
+            letter-spacing: 0!important;
+            margin-bottom: 38px;
+            box-sizing: border-box;
+        }
+        
+        .tips {
+            margin-bottom: 38px;
+            box-sizing: border-box;
+        }
+        
+        .tips div {
+            margin-left: 60px;
+            text-align: left;
+            line-height: 40px;
+            box-sizing: border-box;
+        }
+        
+        .rightInfo {
+            display: flex;
+            margin-top: 34px;
+        }
+        
+        .rightInfo div {
+            margin: 0 18px 24px 0;
+        }
+        
+        .rightList {
+            line-height: 30px;
+        }
+        
+        .last {
+            margin-bottom: 80px;
+        }
+        
+        img {
+            width: 225px;
+            height: 225px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info">
+        <div class="main">
+            <div class="left">
+                <div>
+                    <img src="./image/icon.jpeg" alt="">
+                </div>
+                <div class="title">
+                    <h1>个人简历</h1>
+                    ————CURRICULUM VITAE————
+                </div>
+                <!-- 个人信息 -->
+                <div class="personInfo">
+                    <h3>————个人信息————</h3>
+                    <div class="list">
+                        <div>姓 名:</div>
+                        <div>张三</div>
+                    </div>
+                    <div class="list">
+                        <div>电 话:</div>
+                        <div>15247752134</div>
+                    </div>
+                    <div class="list">
+                        <div>年 龄：</div>
+                        <div>32</div>
+                    </div>
+                    <div class="list">
+                        <div>住 址:</div>
+                        <div>北京朝阳区</div>
+                    </div>
+                    <div class="list change">
+                        <div>工 作 经 验：</div>
+                        <div>7年</div>
+                    </div>
+                </div>
+                <!-- 求职意向 -->
+                <div class="tips">
+                    <h3>————求职意向————</h3>
+                    <div>从事职业：web前端开发工程师</div>
+                    <div>期望月薪：20K-25K</div>
+                </div>
+                <!-- 教育背景 -->
+                <div class="tips">
+                    <h3>————教育背景————</h3>
+                    <div>学校名称：五道口职业技术学院</div>
+                    <div>就读时间：2015.9.1</div>
+                    <div>所学专业：软件工程</div>
+                    <div>学历学位：本科</div>
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <h2>————————工作经历————————</h2>
+                    <div class="rightInfo">
+                        <div>
+                            <div>公司名称：北京某信息科技有限公司</div>
+                            <div>在职时间：2011.06-至今</div>
+                        </div>
+                        <div>
+                            <div>职位名称：前端开发工程师</div>
+                            <div>税前月薪：15K-20K</div>
+                        </div>
+                    </div>
+                    <!-- 工作内容 -->
+                    <div class="rightList">
+                        <h4>工作内容</h4>
+                        <div>
+                            <p>1.根据需求编写HTML和CSS的代码，实现设计稿上面的布局和配色；</p>
+                            <p>2.使用CSS3、JavaScript/jQuery现实页面的动态效果，如图片轮播、导航、页面数据请求渲染；</p>
+                            <p>3.与测试、后台人员配合优化、维护页面性能。 期间参与的项目有：心灵驿站-购书网站</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 工作心得 -->
+                <div class="rightList">
+                    <div>
+                        <p>1.明白了在搭建项目之前需要对整体的架构进行规划；</p>
+                        <p>2.在掌握原生JS的情况下使用jQuery简化DOM操作，提高开发效率；</p>
+                        <p>3.通过Mysql+php+ajax的合理使用能够把页面相同部分通过循环展示出来，减少相应的html代码量，直接改数据库就可以改变页面相关数据的展示。</p>
+                    </div>
+                </div>
+                <!-- 工作描述：-->
+                <div>
+                    <div class="rightList">
+                        <h4>工作描述</h4>
+                        <p>1.参与公司项目中的Web前端的代码设计、开发和实现；</p>
+                        <p>2.使用HTML5、CSS3、JavaScript、 等最新网络技术开发PC/Mobile端应用；</p>
+                        <p>3.探索应用前端领域的新技术与新架构；</p>
+                        <p>4.与后端开发人员一起研讨技术实现方案，制定服务接口等；</p>
+                        <p>5.与UI设计人员、后端开发人员等配合，高质量完成Web前端开发工作；</p>
+                        <p>6.熟悉webpack项目环境配置，负者模块开发、打包等流程；</p>
+                        <p>7.redux相关工作流设计管理；</p>
+                        <p>8.与团队一起解决疑难技术问题。</p>
+                    </div>
+                </div>
+                <!-- 自我评价 -->
+                <div>
+                    <div class="rightList last">
+                        <h4>前端的自我评价</h4>
+                        <p>1. 能够及时地理解客户需求并提供相应的解决方案；</p>
+                        <p>2. 熟练掌握软件开发技术，熟悉B/S结构开发模型及相关技术；</p>
+                        <p>3. 有足够的能力参与并组织项目组从项目需求分析、设计、开发到产品的实施；</p>
+                        <p>4. 有网站和电子商务等规划、建设经验；</p>
+                        <p>5. 学习与实践能力强，语言表达沟通能力良好，能较快融入工作；</p>
+                        <p>6. 为人开朗,做事认真负责，能吃苦耐劳，看法成熟，做事稳重，待人真诚，人际关系良好，只要你能有信心，又肯努力去做就没有做不好的事。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
